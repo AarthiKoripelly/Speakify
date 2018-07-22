@@ -1325,7 +1325,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: Helvetica; 
 		font-weight: 300;
 		color: #ebf6f7b9;
 		font-size: 20pt;
@@ -1366,28 +1366,36 @@ input, select, textarea {
 
 	strong, b, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #dac8c8e1;
+		color: #000000e1;
+		
+		  
 		
 	}
 
 	strong, h1 {
-		background: -webkit-linear-gradient(rgb(204, 115, 115), rgb(255, 255, 255));
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		 color: black;
+		 font-family: Helvetica; 
+		 font-style: italic;
+		  
 		font-weight: 400; 
 		font-size: 3.6em;
 		letter-spacing: -0.00000005em;git 
+		
 	}
 
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
+		font-style: italic;
+		font-weight: bold; 
+	
 
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+		font-family: Helvetica; 
 		
 	}
 
